@@ -1,10 +1,15 @@
 # Stegowav
 
+
+<h1 align="center">StegoWAV</h1>
+
+<p align="center">
+  <img src="media/logo.png">
+</p>
+
 A project exploring WAV-steganography (hiding information in the byte data of a .wav file). 
 It allows encoding text information in a .wav file either via a CLI interface or as a 
 Python library. 
-
-![StegoWav-Logo](logo.png)
 
 # Usage
 
@@ -160,6 +165,6 @@ wav_file.write("encoded_wav_file_path.wav")
 
 
 # About
-This is the repository for the Cyber-Security project of group 3.
+This project was created for the Cyber-Security course at the University of Rostock in 2021.
 
 
