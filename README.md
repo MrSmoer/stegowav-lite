@@ -1,7 +1,4 @@
-# Stegowav
-
-
-<h1 align="center">StegoWAV</h1>
+<h1 align="center">Stegowav</h1>
 
 <p align="center">
   <img src="media/logo.png">
@@ -9,7 +6,9 @@
 
 A project exploring WAV-steganography (hiding information in the byte data of a .wav file). 
 It allows encoding text information in a .wav file either via a CLI interface or as a 
-Python library. 
+Python library. This is done by modifying a certain number of least significant bits (LSBs)
+in each amplitude of a wave file. Being the least significant bits these generally are not
+across an entire file. 
 
 # Usage
 
